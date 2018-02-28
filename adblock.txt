@@ -4,12 +4,12 @@
 ! Collaborators: MajkiIT
 ! Last modified: 28 February 2018
 ! Expires: 3 days
-! Version: 2018022801
+! Version: 2018022802
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018022801 aktualizacja: sr, 28 luty 2018, 17:55:00
+! v.2018022802 aktualizacja: sr, 28 luty 2018, 09:55:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -18,10 +18,49 @@ xgemius.js$script
 /js/gemius.js$script
 !
 !
-!-----------------------Privacy filters domains-----------------------!
-||gemius.pl^$domain=~www.gemius.pl
+!-----------------------Privacy filters 2-----------------------!
 ||hit.gemius.pl$script,image
 !
 !
 !-----------------------Elements hide on movie-----------------------!
 ##[href*=".hit.gemius.pl"]
+!
+!
+!-----------------------Privacy filters domains-----------------------!
+||gemius.pl^$domain=~www.gemius.pl
+||smpl.hit.ppdb.pl
+||sylaba.net
+||coin-hive.com
+||0daib.pl
+||adkontekst.pl
+||mir.ec.adkontekst.pl
+||mis.em.nscontext.eu
+||hit.gemius.pl
+||hit.stat24.com
+||hit.stat.pl
+||stat.4u.pl
+||counter.stat.pl
+||statcounter.com
+||intrack.pl
+||quantserve.com
+||legenhit.com
+||stat.onestat.com
+||histats.com
+||int.sitestat.com
+||netmng.com
+||stats.wordpress.com
+||analytics.gazeta.pl
+||mklik.gazeta.pl
+||stats.goldenline.pl
+||stat.dziennik.pl
+||stats-srv.rp.pl
+||tracking.quisma.com
+||track.reinvigorate.net
+||hitslink.interia.com.pl
+||counter.hitslink.com
+||static.chartbeat.com
+||stat.pl
+||stat24.com
+||clickcounters.com
+||flaker.pl
+||niebieski.net
