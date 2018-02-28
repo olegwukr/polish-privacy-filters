@@ -1,0 +1,27 @@
+[Adblock Plus 2.0]
+! Title: Polish Privacy Filters
+! Oficjalne polskie filtry prywatności
+! Collaborators: MajkiIT
+! Last modified: 28 February 2018
+! Expires: 3 days
+! Version: 2018022801
+! Support:
+!   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
+! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+! Copyright (C) 2018 
+! v.2018022801 aktualizacja: sr, 28 luty 2018, 17:55:00
+!
+!
+!-----------------------Privacy filters block-----------------------!
+xgemius.js$script
+/gemius/*$script,image
+/js/gemius.js$script
+!
+!
+!-----------------------Privacy filters domains-----------------------!
+||gemius.pl^$domain=~www.gemius.pl
+||hit.gemius.pl$script,image
+!
+!
+!-----------------------Elements hide on movie-----------------------!
+##[href*=".hit.gemius.pl"]
