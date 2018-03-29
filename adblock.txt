@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Title: Polish Privacy Filters
-! Oficjalne polskie filtry prywatności
+! Title: Polskie Filtry Prywatności
+! Polish Privacy Filters
 ! Collaborators: MajkiIT
-! Last modified: 28 February 2018
+! Last modified: 29 March 2018
 ! Expires: 3 days
-! Version: 2018022802
+! Version: 2018032901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018022802 aktualizacja: sr, 28 luty 2018, 20:05:00
+! v.2018032901 aktualizacja: czw, 29 marca 2018
 !
 !
 !-----------------------Privacy filters block-----------------------!
