@@ -1,15 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Collaborators: MajkiIT
-! Last modified: 28 February 2018
+! Last modified: 6 April 2018
 ! Expires: 3 days
-! Version: 2018022802
+! Version: 2018040601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018022802 aktualizacja: sr, 28 luty 2018, 20:05:00
+! v.2018040601 aktualizacja: ptk, 6 kwietnia 2018, 19:35:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -24,22 +23,56 @@ xgemius.js$script
 !
 !-----------------------Elements hide on movie-----------------------!
 ##[href*=".hit.gemius.pl"]
+##A[href*="k.tradedoubler.com/click"]
+motorolasolutions.com##.tealiumMo2TriggerButton
+naekranie.pl###adocean-screening-layer > .inner-wrap
+naekranie.pl###adocean-screening-layer > .single-news
+poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 !
 !
 !-----------------------Privacy filters domains-----------------------!
+/^(http|https):\/\/(.*)salesmanago\.(pl|com)\/(static|dynamic)\//$script,domain=~salesmanago.com|~salesmanago.pl
+/^https:\/\/[a-z.]{2,16}\.wp\.pl\/[a-zA-Z0-9-_.?=?&%]{200,}/$image,domain=~pilot.wp.pl
+/*dc_trk_aid$image,script
+||adkontekst.pl$script,image
+||adnxs.com^
+||api.solvemedia.com/papi/action$popup
+||audienceinsights.net^$domain=~audienceinsights.net
+||behavioralengine.com^$domain=~behavioralengine.com
+||clickmatic.pl/$domain=~clickmatic.pl
+||creativecdn.com^$third-party
+||daib.pl^
+||emisja.adsearch.pl/$xmlhttprequest
+||entryhit.wp.pl^
+||gcontent.services.tvn.pl^
+||kozaczek.pl/stats.php$xmlhttprequest
+||nsaudience.pl^
+||pixel.solvemedia.com^
+.pl/*_ac=kropka-
+||revsci.net^
+||salesbee.pl^
+||salesbeehive.com^
+||smartclick.pl$script
+||stats.asp24.pl/js/click.4.js$script
+||stg.wp.pl^$script
+||tealium.hs.llnwd.net/*/utui/js/*.js$script,domain=motorolasolutions.com
+||track.omgpl.com^
+||ut.o2.pl^
+||vendimob.pl^
+||www.wp.pl/v*/log/view
+||x.sare25.com^
+||ymetrica.com^
+||clickserve.dartsearch.net^
+~sloworegionu.pl,~4active.eu,~valida.pl,~foodprint.pl##.banneritem
 ||gemius.pl^$domain=~www.gemius.pl
 ||smpl.hit.ppdb.pl^
 ||sylaba.net^
 ||coin-hive.com^
 ||0daib.pl^
 ||adkontekst.pl^
-||mir.ec.adkontekst.pl^
 ||mis.em.nscontext.eu^
 ||hit.gemius.pl^
-||hit.stat24.com^
-||hit.stat.pl^
 ||stat.4u.pl^
-||counter.stat.pl^
 ||statcounter.com^
 ||intrack.pl^
 ||quantserve.com^
@@ -62,4 +95,3 @@ xgemius.js$script
 ||stat.pl^
 ||stat24.com^
 ||clickcounters.com^
-
