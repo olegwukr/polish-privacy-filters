@@ -3,12 +3,12 @@
 ! Oficjalne polskie filtry prywatności
 ! Last modified: 6 April 2018
 ! Expires: 3 days
-! Version: 2018040601
+! Version: 2018040602
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018040601 aktualizacja: ptk, 6 kwietnia 2018, 19:35:00
+! v.2018040602 aktualizacja: ptk, 6 kwietnia 2018, 19:40:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -63,7 +63,6 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||x.sare25.com^
 ||ymetrica.com^
 ||clickserve.dartsearch.net^
-~sloworegionu.pl,~4active.eu,~valida.pl,~foodprint.pl##.banneritem
 ||gemius.pl^$domain=~www.gemius.pl
 ||smpl.hit.ppdb.pl^
 ||sylaba.net^
