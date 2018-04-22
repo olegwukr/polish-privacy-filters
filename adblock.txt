@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 20 April 2018
+! Last modified: 22 April 2018
 ! Expires: 3 days
-! Version: 2018042001
+! Version: 2018042201
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018042001 aktualizacja: ptk, 20 kwietnia 2018, 10:15:00
+! v.2018042201 aktualizacja: nie, 22 kwietnia 2018, 16:15:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -31,67 +31,75 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 !
 !
 !-----------------------Privacy filters domains-----------------------!
+.pl/*_ac=kropka-
+/*dc_trk_aid$image,script
 /^(http|https):\/\/(.*)salesmanago\.(pl|com)\/(static|dynamic)\//$script,domain=~salesmanago.com|~salesmanago.pl
 /^https:\/\/[a-z.]{2,16}\.wp\.pl\/[a-zA-Z0-9-_.?=?&%]{200,}/$image,domain=~pilot.wp.pl
-/*dc_trk_aid$image,script
+||0daib.pl^
 ||adkontekst.pl$script,image
+||adkontekst.pl^
 ||adnxs.com^
+||analytics.ceneo.pl^
+||analytics.gazeta.pl^
 ||api.solvemedia.com/papi/action$popup
 ||audienceinsights.net^$domain=~audienceinsights.net
+||back.marketing^$script,domain=~back.marketing
+||back.marketing^$third-party
 ||behavioralengine.com^$domain=~behavioralengine.com
+||clickcounters.com^
 ||clickmatic.pl/$domain=~clickmatic.pl
+||clickserve.dartsearch.net^
+||coin-hive.com^
+||counter.hitslink.com^
 ||creativecdn.com^$third-party
 ||daib.pl^
+||edrone.me^$third-party
 ||emisja.adsearch.pl/$xmlhttprequest
 ||entryhit.wp.pl^
 ||gcontent.services.tvn.pl^
+||gemius.pl^$domain=~www.gemius.pl
+||histats.com^
+||hit.gemius.pl^
+||hitslink.interia.com.pl^
+||int.sitestat.com^
+||intrack.pl^
 ||kozaczek.pl/stats.php$xmlhttprequest
+||legenhit.com^
+||mis.em.nscontext.eu^
+||mklik.gazeta.pl^
+||netmng.com^
+||nextclick.pl^$third-party
 ||nsaudience.pl^
 ||pixel.solvemedia.com^
-.pl/*_ac=kropka-
+||plugin.management^$third-party
+||quantserve.com^
 ||revsci.net^
 ||salesbee.pl^
 ||salesbeehive.com^
+||salesmanago.pl^$third-party
 ||smartclick.pl$script
+||smpl.hit.ppdb.pl^
+||stat.4u.pl^
+||stat.dziennik.pl^
+||stat.onestat.com^
+||stat.pl^
+||stat24.com^
+||statcounter.com^
+||static.chartbeat.com^
+||stats-srv.rp.pl^
 ||stats.asp24.pl/js/click.4.js$script
+||stats.goldenline.pl^
+||stats.wordpress.com^
 ||stg.wp.pl^$script
+||sylaba.net^
 ||tealium.hs.llnwd.net/*/utui/js/*.js$script,domain=motorolasolutions.com
+||track.buybox.click^
 ||track.omgpl.com^
+||track.reinvigorate.net^
+||tracker.twenga.pl^
+||tracking.quisma.com^
 ||ut.o2.pl^
 ||vendimob.pl^
 ||www.wp.pl/v*/log/view
 ||x.sare25.com^
 ||ymetrica.com^
-||clickserve.dartsearch.net^
-||gemius.pl^$domain=~www.gemius.pl
-||smpl.hit.ppdb.pl^
-||sylaba.net^
-||coin-hive.com^
-||0daib.pl^
-||adkontekst.pl^
-||mis.em.nscontext.eu^
-||hit.gemius.pl^
-||stat.4u.pl^
-||statcounter.com^
-||intrack.pl^
-||quantserve.com^
-||legenhit.com^
-||stat.onestat.com^
-||histats.com^
-||int.sitestat.com^
-||netmng.com^
-||stats.wordpress.com^
-||analytics.gazeta.pl^
-||mklik.gazeta.pl^
-||stats.goldenline.pl^
-||stat.dziennik.pl^
-||stats-srv.rp.pl^
-||tracking.quisma.com^
-||track.reinvigorate.net^
-||hitslink.interia.com.pl^
-||counter.hitslink.com^
-||static.chartbeat.com^
-||stat.pl^
-||stat24.com^
-||clickcounters.com^
-||back.marketing^$script,domain=~back.marketing
