@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 22 April 2018
+! Last modified: 6 August 2018
 ! Expires: 3 days
-! Version: 2018042201
+! Version: 2018080601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018042201 aktualizacja: nie, 22 kwietnia 2018, 16:15:00
+! v.2018080601 aktualizacja: pon, 6 sierpnia 2018, 15:35:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -46,6 +46,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||back.marketing^$script,domain=~back.marketing
 ||back.marketing^$third-party
 ||behavioralengine.com^$domain=~behavioralengine.com
+||clickmeter.com^
 ||clickcounters.com^
 ||clickmatic.pl/$domain=~clickmatic.pl
 ||clickserve.dartsearch.net^
@@ -97,6 +98,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||track.omgpl.com^
 ||track.reinvigorate.net^
 ||tracker.twenga.pl^
+||tracking.affiliate44.com.pl^
 ||tracking.quisma.com^
 ||ut.o2.pl^
 ||vendimob.pl^
