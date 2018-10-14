@@ -85,6 +85,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||stat.onestat.com^
 ||stat.pl^
 ||stat24.com^
+||savecart.pl
 ||statcounter.com^
 ||static.chartbeat.com^
 ||stats-srv.rp.pl^
