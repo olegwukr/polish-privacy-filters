@@ -111,3 +111,4 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||direct.money.pl/*/salechannel.php$popup
 ||direct.money.pl/*/directtrack.php
 ||px.wp.pl^
+||cod.bitrec.com
