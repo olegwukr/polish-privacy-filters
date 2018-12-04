@@ -1,5 +1,4 @@
-
-!#endif[Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
 ! Last modified: 4 December 2018
