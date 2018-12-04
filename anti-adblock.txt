@@ -1,4 +1,5 @@
-[Adblock Plus 2.0]
+
+!#endif[Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
 ! Last modified: 4 December 2018
@@ -14,6 +15,7 @@
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
 !#if ext_ublock
 !#include anti-adblock_suplement.txt
+!#endif
 !
 !
 !1#---------------------------------Anti Adblock Rules element hide----------------------------------!
@@ -338,5 +340,3 @@ tvp.pl###tvpoverlay_abdinfo
 tvp.pl##.adv__rectangle
 vod.tvp.pl##.hidden-phone.rectangleWrapper
 ||tvp.pl/video/vod/reklamy/$domain=tvp.pl
-!
-!#endif
