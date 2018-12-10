@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 9 December 2018
+! Last modified: 10 December 2018
 ! Expires: 2 days
-! Version: 2018120901
+! Version: 2018121001
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018120901 aktualizacja: nie, 9 grudnia 2018, 16:15:00
+! v.2018121001 aktualizacja: pon, 10 grudnia 2018, 21:45:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -167,6 +167,7 @@ zmiksowani.pl##.text-center.alert-danger.alert
 zarabiam.com#@#.adplacement
 zrabatowani.pl###popup-adblock-bottom
 zw.pl###abpnotzw
+zycietoprzygoda.pl##[class^="tws_"]
 !
 !2#---------------------------------Anti Adblock Rules blocking filters----------------------------------!
 /blockadblock.$script
