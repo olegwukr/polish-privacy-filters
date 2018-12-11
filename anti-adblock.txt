@@ -18,6 +18,8 @@
 !
 !
 !1#---------------------------------Anti Adblock Rules element hide----------------------------------!
+! Plansza anty adblockowa przeslaniajaca strone
+forsal.pl###page > div:nth-of-type(3)
 12zawodnik.pl##.ads-checker-msg
 24gliwice.pl,wyborkierowcow.pl,kino123.pl,jednoslad.pl,how2play.pl,polskiedzieje.pl,ciekawe.org,baza-lekow.com.pl,testhub.pl,widzewtomy.net,gadzet.telchina.pl,ostatniatawerna.pl#@##adsense
 24opole.pl,webcamera.pl,darmowe-torenty.pl,dziennikwschodni.pl,vorek.pl,katowickisport.pl,torrentcity.pl,wtkplay.pl,epoznan.pl,comperia.pl#@#.ad
