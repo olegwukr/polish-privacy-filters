@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 28 December 2018
+! Last modified: 29 December 2018
 ! Expires: 2 days
-! Version: 2018122802
+! Version: 2018122901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018122802 aktualizacja: ptk, 28 grudnia 2018, 08:14:00
+! v.2018122901 aktualizacja: sob, 29 grudnia 2018, 00:01:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -133,6 +133,8 @@ queer.pl##.box-block
 senda.pl#@#.advert_box
 stylunio.pl##.blocked-info
 sucharry.pl###adb
+tapeciarnia.pl#@#.adsbygoogle
+tapeciarnia.pl#@#[id^="aswift_"]
 terrarium.com.pl#@#.ABD_display_wrapper
 terrarium.com.pl,ps3-hack.pl#@##ads
 trojmiasto.pl,trojmiasto.tv###block_info_wrap
