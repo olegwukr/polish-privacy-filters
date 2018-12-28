@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupełnienie dla uBlock Origin
-! Last modified: 27 December 2018
+! Last modified: 28 December 2018
 ! Expires: 2 days
-! Version: 2018122701
+! Version: 2018122801
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018122701 aktualizacja: czw, 27 grudnia 2018, 15:30:00
+! v.2018122801 aktualizacja: ptk, 28 grudnia 2018, 08:17:00
 !
 !
 ! Adblock
@@ -52,5 +52,4 @@ tvn24.pl##script:inject(abort-on-property-write.js, Vublock)
 kitsune-subs.anime-odcinki.pl##+js(set-constant.js, showAds, true)
 !
 ! ps3-hack.pl
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=ps3-hack.pl
-||google-analytics.com/ga.js$script,redirect=noopjs,domain=ps3-hack.pl
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=ps3-hack.pl,important
