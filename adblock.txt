@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 3 November 2018
+! Last modified: 29 December 2018
 ! Expires: 3 days
-! Version: 2018111203
+! Version: 2018122901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018111203 aktualizacja: pon, 12 listopada 2018, 18:45:00
+! v.2018122901 aktualizacja: sob, 29 grudnia 2018, 14:55:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -122,3 +122,4 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 !
 ! EasyPrivacy  
 @@||tv.wp.pl/do/*/dotn?sw=$image,~third-party,domain=tv.wp.pl
+@@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-download-tracker.js
