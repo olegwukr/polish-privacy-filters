@@ -1,4 +1,4 @@
-2[Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
 ! Last modified: 29 December 2018
