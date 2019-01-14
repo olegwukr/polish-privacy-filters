@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupełnienie dla uBlock Origin
-! Last modified: 28 December 2018
+! Last modified: 14 January 2019
 ! Expires: 2 days
-! Version: 2018122801
+! Version: 2019011401
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2018 
-! v.2018122801 aktualizacja: ptk, 28 grudnia 2018, 10:00:00
+! v.2019011401 aktualizacja: pon, 14 styczen 2019, 19:50:00
 !
 !
 ! Adblock
@@ -27,6 +27,7 @@ playpuls.pl##+js(setInterval-defuser.js, muted, 8000)
 playpuls.pl##+js(setTimeout-defuser.js, Math.round, 5000)
 skript.pl##script:inject(abort-current-inline-script.js, $, alert)
 skript.pl##script:inject(abort-current-inline-script.js, document.addEventListener, adblocka)
+scypion.pl##.adsbygoogle:style(position: absolute!important; left: -3000px!important;)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=twojahistoria.pl,redirect=noopjs
 ||wp.hit.gemius.pl/gdejs/xgde.js$script,redirect=noopjs,domain=pilot.wp.pl
 warezdark.pl##script:inject(abort-on-property-write.js, addBlocking)
