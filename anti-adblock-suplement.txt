@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupełnienie dla uBlock Origin
-! Last modified: 14 January 2019
+! Last modified: 4 February 2019
 ! Expires: 2 days
-! Version: 2019011401
+! Version: 2019020401
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-! Copyright (C) 2018 
-! v.2019011401 aktualizacja: pon, 14 styczen 2019, 19:50:00
+! Copyright (C) 2019
+! v.2019011401 aktualizacja: pon, 4 luty 2019, 08:35:00
 !
 !
 ! Adblock
@@ -32,6 +32,7 @@ scypion.pl##.adsbygoogle:style(position: absolute!important; left: -3000px!impor
 ||wp.hit.gemius.pl/gdejs/xgde.js$script,redirect=noopjs,domain=pilot.wp.pl
 warezdark.pl##script:inject(abort-on-property-write.js, addBlocking)
 zambrow.org##+js(abort-current-inline-script.js,document.getElementById, block)
+zarabiam.com##body > font[color="green"]:last-of-type:style(color: transparent !important;)
 !
 ! Rules after Adblock
 vod.pl##.infoCloud:style(position: absolute!important; left: -3000px!important;)
