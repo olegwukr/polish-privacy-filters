@@ -1,18 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 8 February 2019
+! Last modified: 10 February 2019
 ! Expires: 2 days
-! Version: 2019020801
+! Version: 2019021001
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019020801 aktualizacja: ptk, 8 lutego 2019, 23:20:00
+! v.2019021001 aktualizacja: nie, 10 lutego 2019, 10:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
-!#if ext_ublock
 !#include anti-adblock-suplement.txt
 !#endif
 !
@@ -35,7 +34,7 @@ cda-online.pl###deadblocker_success_dialog
 chelsea24news.pl###rba2
 comperia.pl##.czarobox
 czasdiet.pl##.contop + [style*="border:2px solid;"], .consid + [style*="border:2px solid;"]
-dailyweb.pl##.row:nth-of-type(4), .adsense-blockerr
+dailyweb.pl##.row:nth-of-type(4), .adwse-blockerr
 darmowyskin.pl##.info_add_block
 dieroten.pl#@#[class^="ad-"]
 dstar.pzk.pl,burze.dzis.net,kurnik.pl,arrow24.net,vampirediaries24.pl,matzoo.pl,skript.pl,katowickisport.pl,przewodnikduchowy.pl,waw4free.pl,webcamera.pl,w-poblizu.pl#@#.adsbygoogle
@@ -241,7 +240,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||eskago.pl^$generichide
 @@||eskago.pl/html/js/ads*.js$script
 @@||eskago.pl/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest,domain=eskago.pl
-@@||filmweb.pl^$generichide
+!@@||filmweb.pl^$generichide
 @@||fm.tuba.pl^$xmlhttprequest,domain=fm.tuba.pl
 @@||fm.tuba.pl/adblockDetector.js
 @@||gapl.hit.gemius.pl/gemiuslib.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
