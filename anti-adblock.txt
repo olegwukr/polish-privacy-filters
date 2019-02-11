@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 11 February 2019
+! Last modified: 10 February 2019
 ! Expires: 2 days
-! Version: 2019021101
+! Version: 2019021002
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019021101 aktualizacja: pon, 11 lutego 2019, 22:00:00
+! v.2019021002 aktualizacja: nie, 10 lutego 2019, 19:30:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -45,7 +45,6 @@ e-dokument.org,znaki.vxm.pl#@##banner_ad
 egarwolin.pl###TXhkUvZljBCga
 emstories.pl###adBlockDetectedMessage
 filmweb.pl#@#.ws__wrapper
-filmweb.pl#@#body .ws__wrapper
 fly4free.pl##.warnadblk
 forum.komputerswiat.pl#@##ks_breaking_news
 forum.moto-4t.pl##.forums.topiclist > .icon
