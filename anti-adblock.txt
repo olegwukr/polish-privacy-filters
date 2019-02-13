@@ -3,15 +3,16 @@
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
 ! Last modified: 12 February 2019
 ! Expires: 2 days
-! Version: 2019021002
+! Version: 2019021201
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019021201 aktualizacja: wt, 12 lutego 2019, 11:40:00
+! v.2019021201 aktualizacja: pon, 12 lutego 2019, 14:05:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
+!#if ext_ublock
 !#include anti-adblock-suplement.txt
 !#endif
 !
@@ -45,6 +46,7 @@ e-dokument.org,znaki.vxm.pl#@##banner_ad
 egarwolin.pl###TXhkUvZljBCga
 emstories.pl###adBlockDetectedMessage
 filmweb.pl#@#.ws__wrapper
+filmweb.pl#@#body .ws__wrapper
 fly4free.pl##.warnadblk
 forum.komputerswiat.pl#@##ks_breaking_news
 forum.moto-4t.pl##.forums.topiclist > .icon
