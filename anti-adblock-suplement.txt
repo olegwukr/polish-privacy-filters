@@ -1,5 +1,5 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
-! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupe&#322;nienie dla uBlock Origin
+! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
 ! Last modified: 4 February 2019
 ! Expires: 2 days
 ! Version: 2019020401

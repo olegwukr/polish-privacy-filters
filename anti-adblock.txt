@@ -242,7 +242,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||eskago.pl^$generichide
 @@||eskago.pl/html/js/ads*.js$script
 @@||eskago.pl/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest,domain=eskago.pl
-@@||filmweb.pl^$generichide
+!@@||filmweb.pl^$generichide
 @@||fm.tuba.pl^$xmlhttprequest,domain=fm.tuba.pl
 @@||fm.tuba.pl/adblockDetector.js
 @@||gapl.hit.gemius.pl/gemiuslib.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
@@ -329,7 +329,6 @@ zycietoprzygoda.pl##[class^="tws_"]
 animezone.pl##[id*="ScriptRoot"]
 cosplayjav.pl##.baner-bottom-section
 dieroten.pl###ad-sts-top
-filmweb.pl###advertBar-pl_PL
 gry-planszowe.pl##.phpbb-ads-center
 how2play.pl##[href="https://how2play.pl/wylacz-adblocka/"], #custom_html-3
 istotne.pl##.advert
