@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 10 March 2019
+! Last modified: 17 March 2019
 ! Expires: 2 days
-! Version: 2019031001
+! Version: 2019031701
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019031001 aktualizacja: nie, 10 marca 2019, 08:20:00
+! v.2019031701 aktualizacja: nie, 17 marca 2019, 18:50:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -241,6 +241,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||comperia.pl^$generichide
 @@||csr.onet.pl/$domain=www.newsweek.pl
 @@||darmowa-telewizja.online^$generichide
+@@||dziennikwschodni.pl/*showads.js$xhr
 @@||epiotrkow.pl/reklama/*MajkiIT*.js$script
 @@||eskago.pl^$generichide
 @@||eskago.pl/html/js/ads*.js$script
@@ -383,3 +384,4 @@ vod.tvp.pl##.hidden-phone.rectangleWrapper
 filmweb.pl#@#.ws__wrapper
 filmweb.pl#@#body .ws__wrapper
 filmweb.pl#@#+js(setTimeout-defuser.js, notDetected)
+filmweb.pl#@##advertBar-pl_PL
