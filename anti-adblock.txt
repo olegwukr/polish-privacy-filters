@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 19 March 2019
+! Last modified: 20 March 2019
 ! Expires: 2 days
-! Version: 2019031901
+! Version: 2019032002
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019031901 aktualizacja: wt, 19 marca 2019, 21:55:00
+! v.2019032002 aktualizacja: sr, 20 marca 2019, 10:05:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -176,7 +176,7 @@ www.ps4forum.pl##.googleheader
 z4y.pl##.main_right > .section:nth-of-type(6) > .title
 zamow-reklame.pl###block
 zarabiam.com###infobar, #intertext1 > div > .tborder
-zetchilli.pl##.adblock-info
+zetchilli.pl,upflix.pl##.adblock-info
 zmiksowani.pl##.text-center.alert-danger.alert
 zarabiam.com#@#.adplacement
 zrabatowani.pl###popup-adblock-bottom
@@ -390,3 +390,4 @@ filmweb.pl#@##advertBar-pl_PL
 dobreprogramy.pl#@#.ad_container
 dobreprogramy.pl#@#.text_ads
 dobreprogramy.pl#@#.pub_300x250
+komorkomania.pl,portal.abczdrowie.pl,autokult.pl,pudelek.pl,tv.pudelek.pl,fotoblogia.pl##[class*="ad_container"] + div[class]
