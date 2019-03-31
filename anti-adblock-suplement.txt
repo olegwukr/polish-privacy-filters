@@ -2,7 +2,7 @@
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
 ! Last modified: 31 March 2019
 ! Expires: 2 days
-! Version: 2019032201
+! Version: 2019033101
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
