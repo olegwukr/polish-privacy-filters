@@ -116,6 +116,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||px.wp.pl^
 ||cod.bitrec.com^
 ||api.useinsider.com^
+||unknow.now.sh^
 !
 !
 ! Problem with ads 
