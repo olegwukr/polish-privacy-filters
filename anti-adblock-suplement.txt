@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 22 April 2019
+! Last modified: 23 April 2019
 ! Expires: 2 days
-! Version: 2019042201
+! Version: 2019042301
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019042201 aktualizacja: pon, 22 kwietnia 2019, 19:40:00
+! v.2019042301 aktualizacja: wt, 23 kwietnia 2019, 10:10:00
 !
 !
 ! Adblock
@@ -35,7 +35,7 @@ twojetv.ws##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 warezdark.pl##script:inject(abort-on-property-write.js, addBlocking)
 zambrow.org##+js(abort-current-inline-script.js,document.getElementById, block)
 zarabiam.com##body > font[color="green"]:last-of-type:style(color: transparent !important;)
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,gp24.pl,nowiny24.pl,nto.pl,polskatimes.pl,pomorska.pl,wspolczesna.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
 ||s-pt.ppstatic.pl/*/reklama.js$script,redirect=noopjs,important
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
 !
