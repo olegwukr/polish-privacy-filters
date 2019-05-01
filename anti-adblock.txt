@@ -392,8 +392,6 @@ filmweb.pl#@##advertBar-pl_PL
 ||fwcdn.pl/adv/$important,script,domain=filmweb.pl,badfilter
 ||fwcdn.pl/adv/*.jpg
 ||fwcdn.pl/adv/*.png
-filmweb.pl##^div[class^="pageBox "]:not(.pageBoxS) ~ script:not([src])
-filmweb.pl##^div[class^="pageBox "] ~ style
 !
 !10#--------------------------WP Group------------!
 dobreprogramy.pl#@#.ad_container
