@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 4 May 2019
+! Last modified: 7 May 2019
 ! Expires: 2 days
-! Version: 2019050401
+! Version: 2019050701
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019050401 aktualizacja: sob, 4 maja 2019, 10:30:00
+! v.2019050701 aktualizacja: wt, 7 maja 2019, 12:15:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -41,6 +41,7 @@ dziennikelblaski.pl###blockwarning
 dziennikwschodni.pl#@#.adholder
 dziennikwschodni.pl#@#.ad-holder
 e-dokument.org,znaki.vxm.pl#@##banner_ad
+e-kursy-walut.pl##.box-22
 egarwolin.pl###TXhkUvZljBCga
 emstories.pl###adBlockDetectedMessage
 fly4free.pl##.warnadblk
@@ -180,6 +181,7 @@ zetchilli.pl,upflix.pl##.adblock-info
 zmiksowani.pl##.text-center.alert-danger.alert
 zarabiam.com#@#.adplacement
 zrabatowani.pl###popup-adblock-bottom
+zspnr1.lowicz.pl##+js(setInterval-defuser.js, seead)
 zw.pl###abpnotzw
 zycietoprzygoda.pl##[class^="tws_"]
 !
@@ -212,6 +214,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 !
 !3#---------------------------------Anti Adblock Rules whitelist filters----------------------------------!
 @@/adblockdetect/*$script,domain=to.com.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikzachodni.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetawroclawska.pl|gloswielkopolski.pl|kurierlubelski.pl|nto.pl|wspolczesna.pl|poranny.pl|pomorska.pl|gp24.pl|gazetalubuska.pl|echodnia.eu|nowiny24.pl|polskatimes.pl|gs24.pl|gk24.pl|expressbydgoski.pl|ekstramagazyn.pl
+@@/wp-content/plugins/jgc-adblocker-detector/js/jgcabd-detect-adblock.js$script,domain=hentai-online.pl
 @@/adframe.js$script,domain=kobieceporady.pl|allekoszyk.pl|samouczek.info|aranzujemy.pl|mondeoklubpolska.pl
 @@?ads=$image,domain=dziennikwschodni.pl
 @@/adsense.js$script,domain=biznesforum.pl|optyczne.pl|to.proste.info.pl|seciki.pl|kompnet.info|kolniak24.eu|fiatpunto.com.pl
@@ -226,6 +229,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@/js/adverts.js$script,domain=forsal.pl|dziennik.pl
 @@/js/adv.$script,domain=glosregionu.pl|ziemialeszczynska.pl|ziemiagorowska.pl
 @@/reklama.js$domain=expressbydgoski.pl
+@@||adservice.google.com/adsid/integrator.js?domain=www.dieroten.pl$xmlhttprequest,third-party,domain=www.dieroten.pl
 @@||advert-serv.johnmorris.me/adserver/adlogger_tracker.php$subdocument,domain=www.terrarium.com.pl
 @@||adv.wp.pl/adverts$xmlhttprequest,domain=pilot.wp.pl
 @@||adv.wp.pl/RM/Box/*/inline-videostar.js$script,domain=pilot.wp.pl
