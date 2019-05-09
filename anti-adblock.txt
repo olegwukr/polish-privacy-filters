@@ -353,6 +353,7 @@ mybank.pl,wzory-cv.com,polscygracze.pl,dniwolne.eu###.adsbygoogle
 parezja.pl##.td-banner-wrap-full
 przewodnikduchowy.pl##.contop
 tvnmeteo.tvn24.pl##[class*="advert"]
+vod.tvp.pl##.tp2thm.tp2thm-progress-midroll[style^="left"]:empty
 !
 !5#--------------------------shinden.pl------------!
 ||popads.net/pop.js^$important
