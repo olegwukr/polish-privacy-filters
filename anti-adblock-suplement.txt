@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 13 May 2019
+! Last modified: 19 May 2019
 ! Expires: 2 days
-! Version: 2019051301
+! Version: 2019051901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019051301 aktualizacja: pon, 13 maja 2019, 20:30:00
+! v.2019051901 aktualizacja: nie, 19 maja 2019, 15:50:00
 !
 !
 ! Adblock
@@ -74,3 +74,6 @@ dniwolne.eu$$.axv
 ! shinden.pl
 shinden.pl##+js(abort-on-property-write.js, _pop)
 shinden.pl##+js(noeval-if.js, Criteo)
+!
+! nk-net.pl
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=nk-net.pl|www.gry.pl,important
