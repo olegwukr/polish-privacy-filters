@@ -121,6 +121,8 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||unknow.now.sh^
 ||devhub.pl^
 ||licznik.telvinet.pl/cgi-bin/tcounter.cgi$image
+||snrbox.com
+||snrcdn.net
 !
 !
 ! Problem with ads 
