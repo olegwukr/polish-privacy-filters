@@ -3,12 +3,12 @@
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
 ! Last modified: 13 August 2019
 ! Expires: 2 days
-! Version: 2019081301
+! Version: 2019081302
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019081301 aktualizacja: wt, 13 sierpnia 2019, 22:05:00
+! v.2019081302 aktualizacja: wt, 13 sierpnia 2019, 22:10:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -62,7 +62,6 @@ ikorektor.pl###adb
 imged.pl##.m-puppies-detector
 infoship.pl,infoair.pl,infobike.pl,infotram.pl,inforail.pl,transinfo.pl,infobus.pl###popup_adblock
 ipon.pl##.alert-warning
-istotne.pl##.modal-dialog
 jbzdy.com.pl,jbzdy.pl,kwejk.pl,piwniczkamemow.pl,eszkola.pl,dobreprogramy.pl,interia.pl,kwantowo.pl,katowickisport.pl,imeds.pl,pl.aleteia.org,overwatch.pl,jackcaleib.com,waw4free.pl,dziwneobrazki.pl,fm.tuba.pl,hentai-online.pl,epainfo.pl,bajeczki.org,tvbraniewo24.pl,anime-odcinki.pl,bh-res.pl,scentre.pl,towideo.pl,cypr24.eu#@#.pub_300x250
 jbzdy.com.pl,jbzdy.pl,kwejk.pl,piwniczkamemow.pl,eszkola.pl,dobreprogramy.pl,interia.pl,kwantowo.pl,katowickisport.pl,imeds.pl,pl.aleteia.org,overwatch.pl,jackcaleib.com,waw4free.pl,dziwneobrazki.pl,fm.tuba.pl,hentai-online.pl,epainfo.pl,bajeczki.org,tvbraniewo24.pl,anime-odcinki.pl,bh-res.pl,scentre.pl,towideo.pl,cypr24.eu#@#.pub_300x250m
 jbzdy.com.pl,jbzdy.pl,kwejk.pl,piwniczkamemow.pl,eszkola.pl,dobreprogramy.pl,interia.pl,kwantowo.pl,katowickisport.pl,imeds.pl,pl.aleteia.org,overwatch.pl,jackcaleib.com,waw4free.pl,dziwneobrazki.pl,fm.tuba.pl,hentai-online.pl,epainfo.pl,bajeczki.org,tvbraniewo24.pl,anime-odcinki.pl,bh-res.pl,scentre.pl,towideo.pl,cypr24.eu#@#.pub_728x90
@@ -366,6 +365,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||fakt.pl^$generichide
 @@||wirtualnynowydwor.pl^$generichide
 @@||chelmski.eu^$generichide
+@@||istotne.pl/ajax/adverts.json
 !
 !4#--------------------------Rules block ads after antiadblock rules-------------!
 animezone.pl##[id*="ScriptRoot"]
