@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 5 September 2019
+! Last modified: 9 September 2019
 ! Expires: 2 days
-! Version: 2019090501
+! Version: 2019090901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019090501 aktualizacja: czw, 5 wrzesnia 2019, 08:55:00
+! v.2019090901 aktualizacja: pon, 9 wrzesnia 2019, 19:50:00
 !
 !
 ! Adblock
@@ -39,6 +39,7 @@ zarabiam.com##body > font[color="green"]:last-of-type:style(color: transparent !
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
 ||s-pt.ppstatic.pl/*/reklama.js$script,redirect=noopjs,important
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
+miastakobiet.pl,stronazdrowia.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
 !
 ! Rules after Adblock
 vod.pl##.infoCloud:style(position: absolute!important; left: -3000px!important;)
