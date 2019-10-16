@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 9 October 2019
+! Last modified: 16 October 2019
 ! Expires: 2 days
-! Version: 2019100901
+! Version: 2019101601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019100901 aktualizacja: sr, 9 pazdziernika 2019, 12:45:00
+! v.2019101601 aktualizacja: sr, 16 pazdziernika 2019, 07:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -309,7 +309,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||onet.pl^$generichide
 @@||online-tv.pl/wp-content/plugins/pause-adblocker/inc/pause-front.css
 @@||ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dieroten.pl|ps3-hack.pl|dniwolne.eu
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dieroten.pl|ps3-hack.pl|dniwolne.eu|webkod.pl
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=efizyka.net.pl|nk-net.pl|www.gry.pl
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=efizyka.net.pl|dniwolne.eu
 @@||pclab.pl^$generichide
