@@ -3,12 +3,12 @@
 ! Oficjalne polskie filtry prywatności
 ! Last modified: 27 October 2019
 ! Expires: 2 days
-! Version: 2019102701
+! Version: 2019102702
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019102701 aktualizacja: nie, 27 pazdziernika 2019, 16:50:00
+! v.2019102702 aktualizacja: nie, 27 pazdziernika 2019, 16:55:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -70,7 +70,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||iwa3.hit.interia.pl:8443/collector
 ||int.sitestat.com^
 ||intrack.pl^
-||kapi.dev$image,domain=~kapi.dev
+||kapi.dev$domain=~kapi.dev
 ||kozaczek.pl/stats.php$xmlhttprequest
 ||legenhit.com^
 ||mis.em.nscontext.eu^
