@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 27 October 2019
+! Last modified: 23 November 2019
 ! Expires: 2 days
-! Version: 2019102702
+! Version: 2019112302
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019102702 aktualizacja: nie, 27 pazdziernika 2019, 16:55:00
+! v.2019112302 aktualizacja: sob, 23 listopada 2019, 11:20:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -36,6 +36,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 .pl/*_ac=kropka-
 /*dc_trk_aid$image,script
 /^(http|https):\/\/(.*)salesmanago\.(pl|com)\/(static|dynamic)\//$script,domain=~salesmanago.com|~salesmanago.pl
+/cmp/cmp.js$script
 ||iplsc.com/internal/inpl.copy/*/inpl.copy.js$domain=pl
 ||0daib.pl^
 ||adkontekst.pl$script,image
@@ -125,6 +126,7 @@ poczta.interia.pl#@#[href*=".hit.gemius.pl"]
 ||licznik.telvinet.pl/cgi-bin/tcounter.cgi$image
 ||snrbox.com^
 ||snrcdn.net^
+||ps.polt.pl^
 !
 !
 ! Problem with ads 
