@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 16 October 2019
+! Last modified: 24 November 2019
 ! Expires: 2 days
-! Version: 2019101601
+! Version: 2019112401
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019101601 aktualizacja: sr, 16 pazdziernika 2019, 07:55:00
+! v.2019112401 aktualizacja: nie, 24 listopada 2019, 15:40:00
 !
 !
 ! Adblock
@@ -55,7 +55,7 @@ naszemiasto.pl##script:inject(abort-on-property-write.js, czy_wlaczony_adblock)
 ||calcoolator.pl/inc/js/adblockill_copy.js
 !
 ! zabawa z adquesto
-weszlo.com,prnews.pl,mambiznes.pl,kresy.pl##+js(abort-current-inline-script.js, parseInt, adblock)
+weszlo.com,prnews.pl,mambiznes.pl,kresy.pl,natemat.pl##+js(abort-current-inline-script.js, parseInt, adblock)
 !
 ! tvn24.pl
 tvn24.pl##script:inject(abort-on-property-write.js, Vublock)
