@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 18 December 2019
+! Last modified: 19 December 2019
 ! Expires: 2 days
-! Version: 2019121801
+! Version: 2019121901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2019
-! v.2019121801 aktualizacja: sr 18 grudnia 2019, 21:30:00
+! v.2019121901 aktualizacja: czw, 19 grudnia 2019, 18:30:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -28,7 +28,7 @@ xgemius.js$script
 motorolasolutions.com##.tealiumMo2TriggerButton
 naekranie.pl###adocean-screening-layer > .inner-wrap
 naekranie.pl###adocean-screening-layer > .single-news
-poczta.interia.pl#@#[href*=".hit.gemius.pl"]
+poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 !
 !
 !-----------------------Privacy filters domains-----------------------!
