@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 16 January 2019
+! Last modified: 24 January 2019
 ! Expires: 2 days
-! Version: 2020011601
+! Version: 2020012401
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020011601 aktualizacja: czw, 16 stycznia 2020, 07:15:00
+! v.2020012401 aktualizacja: ptk, 24 stycznia 2020, 07:15:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -461,6 +461,9 @@ filmweb.pl#@##advertBar-pl_PL
 ||fwcdn.pl/adv/$important,script,domain=filmweb.pl,badfilter
 ||fwcdn.pl/adv/*.jpg
 ||fwcdn.pl/adv/*.png
+filmweb.pl##^script:has-text(adblockDisplayInformation.):has-text(/[\w\W]{8000,50000}/)
+filmweb.pl##^script:has-text(plusAdblock):has-text(/[\w\W]{4000,10000}/)
+filmweb.pl##+js(abort-current-inline-script.js, IRI, Adblock)
 !
 !10#--------------------------WP Group------------!
 dobreprogramy.pl#@#.ad_container
