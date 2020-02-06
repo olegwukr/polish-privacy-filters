@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 4 February 2020
+! Last modified: 6 February 2020
 ! Expires: 2 days
-! Version: 2020020401
+! Version: 2020020601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020020401 aktualizacja: wt, 4 lutego 2020, 17:50:00
+! v.2020020601 aktualizacja: czw, 6 lutego 2020, 17:50:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -139,6 +139,7 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||wprost.pl/hits.php
 ||traq.li^
 ||hit.interia.pl^
+||abtshield.com^
 !
 !
 ! Problem with ads 
