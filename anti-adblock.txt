@@ -3,12 +3,12 @@
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
 ! Last modified: 7 April 2020
 ! Expires: 2 days
-! Version: 2020040701
+! Version: 2020040702
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020040701 aktualizacja: wt, 7 kwietnia 2020, 16:00:00
+! v.2020040702 aktualizacja: wt, 7 kwietnia 2020, 21:15:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -174,7 +174,7 @@ vitalia.pl###topbborlayer
 vod.pl#@#.infoCloud
 vod.pl#@#.text-ad
 vorek.pl,gry-planszowe.pl,darmowe-torenty.pl,torrentcity.pl,bitnova.info,waw4free.pl,darmowyskin.pl,lunaticfiles.com,www.nadmorski24.pl,www.realmadryt.pl#@#.adsbox
-virpe.com#@#.adsBox
+virpe.com,fileone.tv#@#.adsBox
 vorek.pl,shinden.pl#@#.ads
 waw4free.pl#@#.showad
 waw4free.pl#@#.showbox
