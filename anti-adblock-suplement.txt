@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 16 February 2019
+! Last modified: 24 April 2020
 ! Expires: 2 days
-! Version: 2020021601
+! Version: 2020042401
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020021601 aktualizacja: nie, 16 lutego 2020, 21:00:00
+! v.2020042401 aktualizacja: ptk, 24 kwietnia 2020, 07:00:00
 !
 !
 ! Adblock
@@ -98,7 +98,7 @@ magazyn.wp.pl##+js(overlay-buster.js)
 pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,magazyn.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,wiadomosci.wp.pl##+js(set-constant, Object.prototype.isBlocked, false) 
 pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,magazyn.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,wiadomosci.wp.pl##+js(set-constant, Object.prototype.aggressiveAB, false)
 wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(abort-on-property-read.js, asname)
-wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(abort-on-property-read.js, Object.prototype.rebuild)
+~wideo.wp.pl,wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(abort-on-property-read.js, Object.prototype.rebuild)
 wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(set, Object.prototype.advViewability, undefined)
 !
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wp.pl|o2.pl|pudelek.pl|so-magazyn.pl
