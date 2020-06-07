@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 21 May 2020
+! Last modified: 7 June 2020
 ! Expires: 2 days
-! Version: 2020052101
+! Version: 2020060701
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020052101 aktualizacja: czw, 21 maja 2020, 18:20:00
+! v.2020060701 aktualizacja: nie, 6 czerwca 2020, 19:10:00
 !
 !
 ! Adblock
@@ -108,8 +108,8 @@ magazyn.wp.pl##+js(overlay-buster.js)
 pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,magazyn.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,wiadomosci.wp.pl##+js(set-constant, Object.prototype.isBlocked, false) 
 pudelek.pl,film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,magazyn.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,wiadomosci.wp.pl##+js(set-constant, Object.prototype.aggressiveAB, false)
 wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(abort-on-property-read.js, asname)
-~wideo.wp.pl,wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(abort-on-property-read.js, Object.prototype.rebuild)
-wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(set, Object.prototype.advViewability, undefined)
+~pilot.wp.pl,~wideo.wp.pl,wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(abort-on-property-read.js, Object.prototype.rebuild)
+~pilot.wp.pl,wp.pl,poczta.o2.pl,poczta.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,money.pl,open.fm,parenting.pl,snobka.pl##+js(set, Object.prototype.advViewability, undefined)
 !
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wp.pl|o2.pl|pudelek.pl|so-magazyn.pl
 @@||googletagservices.com/tag/js/gpt.js$domain=wp.pl|dobreprogramy.pl|o2.pl|pudelek.pl|so-magazyn.pl
