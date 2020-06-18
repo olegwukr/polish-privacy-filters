@@ -1,40 +1,40 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 7 June 2020
+! Last modified: 18 June 2020
 ! Expires: 2 days
-! Version: 2020060701
+! Version: 2020061801
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020060701 aktualizacja: nie, 6 czerwca 2020, 19:10:00
+! v.2020061801 aktualizacja: czw, 18 czerwca 2020, 06:30:00
 !
 !
 ! Adblock
 acmilan.com.pl##+js(set-constant.js, showAds, true)
 alefunny.pl###myModal, .modal-backdrop
 alefunny.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
-astroweb.pl##script:inject(abort-on-property-read.js, checkAds)
-aternos.org##script:inject(setTimeout-defuser.js, hasAdblock)
-cvninja.pl##script:inject(abort-on-property-write.js, fuckAdBlock)
+astroweb.pl##+js(abort-on-property-read.js, checkAds)
+aternos.org##+js(setTimeout-defuser.js, hasAdblock)
+cvninja.pl##+js(abort-on-property-write.js, fuckAdBlock)
 darmowa-telewizja.online##+js(addEventListener-defuser.js, load, onload)
 dziwnekomiksy.pl##body>*:style(filter: blur(0px) !important;)
-!filmweb.pl##script:inject(abort-on-property-read.js, document.onreadystatechange)
-filmweb.pl##script:inject(setTimeout-defuser.js, notDetected)
+!filmweb.pl##+js(abort-on-property-read.js, document.onreadystatechange)
+filmweb.pl##+js(setTimeout-defuser.js, notDetected)
 filmweb.pl#@#+js(abort-current-inline-script.js, decodeURIComponent, newAdblockBoardDisplayed)
 filmweb.pl$$script[tag-content="adblockDisplayInformation."][min-length="8000"][max-length="50000"]
-fotoblogia.pl,gadzetomania.pl,wp.pl,autokult.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl##script:inject(abort-on-property-write.js, __serviceAbModal)
-niezalezna.pl##script:inject(noeval.js)
-!pilot.wp.pl##script:inject(set-constant.js, WP.crux.sealed, falseFunc)
+fotoblogia.pl,gadzetomania.pl,wp.pl,autokult.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl##+js(abort-on-property-write.js, __serviceAbModal)
+niezalezna.pl##+js(noeval.js)
+!pilot.wp.pl##+js(set-constant.js, WP.crux.sealed, falseFunc)
 playpuls.pl##+js(setInterval-defuser.js, muted, 8000)
 playpuls.pl##+js(setTimeout-defuser.js, Math.round, 5000)
-skript.pl##script:inject(abort-current-inline-script.js, $, alert)
-skript.pl##script:inject(abort-current-inline-script.js, document.addEventListener, adblocka)
+skript.pl##+js(abort-current-inline-script.js, $, alert)
+skript.pl##+js(abort-current-inline-script.js, document.addEventListener, adblocka)
 scypion.pl##.adsbygoogle:style(position: absolute!important; left: -3000px!important;)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=twojahistoria.pl,redirect=noopjs
 ||wp.hit.gemius.pl/gdejs/xgde.js$script,redirect=noopjs,domain=pilot.wp.pl
 twojetv.ws##+js(abort-current-inline-script.js, atob, decodeURIComponent)
-warezdark.pl##script:inject(abort-on-property-write.js, addBlocking)
+warezdark.pl##+js(abort-on-property-write.js, addBlocking)
 zambrow.org##+js(abort-current-inline-script.js,document.getElementById, block)
 zarabiam.com##body > font[color="green"]:last-of-type:style(color: transparent !important;)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
@@ -47,10 +47,10 @@ polskatimes.pl,dziennikbaltycki.pl,expressilustrowany.pl#@#.div-gpt-ad
 !
 ! Rules after Adblock
 vod.pl##.infoCloud:style(position: absolute!important; left: -3000px!important;)
-webinsider.pl##script:inject(setTimeout-defuser.js, AdBlock)
+webinsider.pl##+js(setTimeout-defuser.js, AdBlock)
 !
 ! naszemiasto.pl - https://github.com/MajkiIT/polish-ads-filter/issues/3175
-naszemiasto.pl##script:inject(abort-on-property-write.js, czy_wlaczony_adblock)
+naszemiasto.pl##+js(abort-on-property-write.js, czy_wlaczony_adblock)
 !
 ! calcoolator.pl
 ||calcoolator.pl/inc/js/adblockill_copy.js
@@ -62,7 +62,7 @@ start.me##+js(nostif, adBanner)
 weszlo.com,prnews.pl,mambiznes.pl,kresy.pl,natemat.pl##+js(abort-current-inline-script.js, parseInt, adblock)
 !
 ! tvn24.pl
-tvn24.pl##script:inject(abort-on-property-write.js, Vublock)
+tvn24.pl##+js(abort-on-property-write.js, Vublock)
 !
 ! kitsune-subs.anime-odcinki.pl
 kitsune-subs.anime-odcinki.pl##+js(set-constant.js, showAds, true)
