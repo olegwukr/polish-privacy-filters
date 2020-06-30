@@ -3,12 +3,12 @@
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
 ! Last modified: 30 June 2020
 ! Expires: 2 days
-! Version: 2020063001
+! Version: 2020063002
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020063001 aktualizacja: wt, 30 czerwca 2020, 18:45:00
+! v.2020063002 aktualizacja: wt, 30 czerwca 2020, 18:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -185,6 +185,7 @@ virpe.com,fileone.tv#@#.adsBox
 vorek.pl,shinden.pl,pomponik.pl#@#.ads
 waw4free.pl#@#.showad
 waw4free.pl#@#.showbox
+waw4free.pl#@##ads
 waznygry.pl###aside, #donut, #campagnard
 who-called.eu##.no-ads-info
 wortale.net##.ban-71.ban
