@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 10 April 2020
+! Last modified: 30 June 2020
 ! Expires: 2 days
-! Version: 2020041001
+! Version: 2020063001
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020041001 aktualizacja: ptk, 10 kwietnia 2020, 10:35:00
+! v.2020063001 aktualizacja: wt, 30 czerwca 2020, 19:15:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -25,6 +25,7 @@ xgemius.js$script
 ||darmowylicznik.pl$domain=~darmowylicznik.pl
 ||hit-pool.upscore.com^
 =kropka-stats&
+||gazeta-msp.pl/img/1px.gif
 !
 !
 !-----------------------Privacy filters 2-----------------------!
