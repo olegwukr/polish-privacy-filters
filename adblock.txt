@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Privacy Filters
 ! Oficjalne polskie filtry prywatności
-! Last modified: 20 July 2020
+! Last modified: 9 August 2020
 ! Expires: 2 days
-! Version: 2020072001
+! Version: 2020080901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020072001 aktualizacja: pon, 20 lipca 2020, 06:15:00
+! v.2020080901 aktualizacja: nie, 9 sierpnia 2020, 08:20:00
 !
 !
 !-----------------------Privacy filters block-----------------------!
@@ -54,8 +54,6 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||adkontekst.pl$script,image
 ||adkontekst.pl^
 ||adnxs.com^
-||analytics.ceneo.pl^
-||analytics.gazeta.pl^
 ||api.solvemedia.com/papi/action$popup
 ||audienceinsights.net^$domain=~audienceinsights.net
 ||back.marketing^$script,domain=~back.marketing
@@ -69,11 +67,8 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||coin-hive.com^
 ||connect-lb.islay.tech^
 ||counter.hitslink.com^
-||creativecdn.com^$third-party
 ||daib.pl^
-||edrone.me^$third-party
 ||emisja.adsearch.pl/$xmlhttprequest
-||entryhit.wp.pl^
 ||freshmail.mx^
 ||g.cda.pl/*.php?pixel$image
 ||gcontent.services.tvn.pl^
@@ -89,18 +84,14 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||kozaczek.pl/stats.php$xmlhttprequest
 ||legenhit.com^
 ||mis.em.nscontext.eu^
-||mklik.gazeta.pl^
 ||netmng.com^
 ||nextclick.pl^$third-party
 ||nsaudience.pl^
-||pixel.solvemedia.com^
-||pixel.wp.pl^
 ||plugin.management^$third-party
 ||quantserve.com^
 ||revsci.net^
 ||salesbee.pl^
 ||salesbeehive.com^
-||salesmanago.pl^$third-party
 ||smartclick.pl^$script
 ||smpl.hit.ppdb.pl^
 !||sgqcvfjvr.onet.pl^
@@ -114,16 +105,13 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||stats-srv.rp.pl^
 ||stats.asp24.pl/js/click.4.js$script
 ||stats.goldenline.pl^
-||stats.wordpress.com^
 ||stg.wp.pl^$script
 ||sylaba.net^
 ||tealium.hs.llnwd.net/*/utui/js/*.js$script,domain=motorolasolutions.com
 ||track.buybox.click^
-||track.omgpl.com^
 ||track.reinvigorate.net^
 ||tracker.twenga.pl^
 ||tracking.affiliate44.com.pl^
-||tracking.quisma.com^
 ||ut.o2.pl^
 ||vendimob.pl^
 ||www.wp.pl/v*/log/view
@@ -132,8 +120,6 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||clk.tradedoubler.com^
 ||direct.money.pl/*/salechannel.php$popup
 ||direct.money.pl/*/directtrack.php
-||px.wp.pl^
-||cod.bitrec.com^
 ||api.useinsider.com^
 ||unknow.now.sh^
 ||devhub.pl^
@@ -142,7 +128,6 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||snrcdn.net^
 ||ps.polt.pl^
 ||buybox.click^$script,domain=~buybox.click
-||pixel6.wp.pl^
 ||cassini.efigence.com^
 ||mautic.sfanews.pl^
 ||asmsalesforce.pl^
@@ -150,7 +135,6 @@ poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
 ||getresponsepl.com/script/ga.js$script
 ||wprost.pl/hits.php
 ||traq.li^
-||hit.interia.pl^
 ||abtshield.com^
 ||track.trojmiasto.pl^
 !
