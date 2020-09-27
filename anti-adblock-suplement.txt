@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 4 September 2020
+! Last modified: 27 September 2020
 ! Expires: 2 days
-! Version: 2020090401
+! Version: 2020092701
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020090401 aktualizacja: czw, 4 września 2020, 18:10:00
+! v.2020092701 aktualizacja: nie, 27 września 2020, 22:10:00
 !
 !
 ! Adblock
@@ -100,6 +100,10 @@ exdb.net##+js(aeld, DOMContentLoaded, mdpDeBlocker)
 !
 trojmiasto.pl##+js(abort-on-property-read, HateAdBlock)
 trojmiasto.pl##+js(abort-on-property-read, adBlockDetected)
+!
+!
+interia.pl,pomponik.pl##+js(set, Inpl.Abd.onDetected, noopFunc)
+interia.pl,pomponik.pl##+js(set, isAdblockDetected, 0)
 !
 ! magazyn.wp.pl
 !#if cap_user_stylesheet
