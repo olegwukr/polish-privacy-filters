@@ -3,12 +3,16 @@
 ! Oficjalne polskie filtry prywatności
 ! Last modified: 14 December 2020
 ! Expires: 2 days
-! Version: 2020121401
+! Version: 2020121402
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020121401 aktualizacja: pon, 14 grudnia 2020, 08:00:00
+! v.2020121402 aktualizacja: pon, 14 grudnia 2020, 08:10:00
+!
+!
+!-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
+!#include adblock-suplement.txt
 !
 !
 !-----------------------Privacy filters block-----------------------!
