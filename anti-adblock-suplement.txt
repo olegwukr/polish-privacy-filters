@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 5 December 2020
+! Last modified: 15 December 2020
 ! Expires: 2 days
-! Version: 2020120501
+! Version: 2020121501
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020120501 aktualizacja: sob, 5 grudnia 2020, 18:30:00
+! v.2020121501 aktualizacja: wt, 15 grudnia 2020, 15:00:00
 !
 !
 ! Adblock
@@ -20,7 +20,7 @@ astroweb.pl##+js(abort-on-property-read.js, checkAds)
 aternos.org##+js(setTimeout-defuser.js, hasAdblock)
 cvninja.pl##+js(abort-on-property-write.js, fuckAdBlock)
 darmowa-telewizja.online##+js(addEventListener-defuser.js, load, onload)
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(aeld, , show)
 dziwnekomiksy.pl##body>*:style(filter: blur(0px) !important;)
 filmweb.pl##+js(setTimeout-defuser.js, notDetected)
 filmweb.pl#@#+js(abort-current-inline-script.js, decodeURIComponent, newAdblockBoardDisplayed)
@@ -40,7 +40,7 @@ warezdark.pl##+js(abort-on-property-write.js, addBlocking)
 zambrow.org##+js(abort-current-inline-script.js,document.getElementById, block)
 zarabiam.com##body > font[color="green"]:last-of-type:style(color: transparent !important;)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=twojahistoria.pl,redirect=noopjs
-||ppstatic.pl/assets/nsk/*/js/compiled/atoms/ads/branding-video.js$script,domain=pl|eu,redirect=noopjs,important
+||ppstatic.pl/*/reklama.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl
 ||s-pt.ppstatic.pl/*/reklama.js$script,redirect=noopjs,important
 ||wp.hit.gemius.pl/gdejs/xgde.js$script,redirect=noopjs,domain=pilot.wp.pl
 !
