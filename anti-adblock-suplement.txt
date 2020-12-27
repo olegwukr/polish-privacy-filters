@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 20 December 2020
+! Last modified: 27 December 2020
 ! Expires: 2 days
-! Version: 2020122001
+! Version: 2020122701
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2020122001 aktualizacja: nie, 20 grudnia 2020, 10:40:00
+! v.2020122701 aktualizacja: nie, 27 grudnia 2020, 15:20:00
 !
 !
 ! Adblock
@@ -159,3 +159,6 @@ epidemia-koronawirus.pl#%#//scriptlet("abort-on-property-read", "mdpDeBlocker")
 !
 ! eska.pl
 eska.pl##+js(aeld, DOMContentLoaded, showFallbackImage)
+!
+! sadeczanin.info
+sadeczanin.info##+js(abort-current-inline-script, parseInt, /adBlock/)
