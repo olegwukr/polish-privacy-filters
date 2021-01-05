@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 1 January 2021
+! Last modified: 5 January 2021
 ! Expires: 2 days
-! Version: 2021010101
+! Version: 2021010501
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2020
-! v.2021010101 aktualizacja: ptk, 1 stycznia 2021, 19:50:00
+! v.2021010501 aktualizacja: wt, 5 stycznia 2021, 19:50:00
 !
 !
 ! Adblock
@@ -166,3 +166,7 @@ sadeczanin.info##+js(abort-current-inline-script, parseInt, /adBlock/)
 ! kurnik.pl
 kurnik.pl##.adsbygoogle:style(height: 2px !important; width: 1px !important;)
 kurnik.pl##+js(aopr, abask)
+!
+! karmopedia.pl
+karmopedia.pl##+js(acis, showAdblockImage)
+karmopedia.pl##+js(nostif, showAdblockImage, 2000)
