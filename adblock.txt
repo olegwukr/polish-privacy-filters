@@ -3,12 +3,12 @@
 ! Oficjalne polskie filtry prywatności
 ! Last modified: 28 January 2021
 ! Expires: 2 days
-! Version: 2021012802
+! Version: 2021012803
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021012802 aktualizacja: czw, 28 stycznia 2020, 13:20:00
+! v.2021012803 aktualizacja: czw, 28 stycznia 2020, 16:20:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -38,6 +38,9 @@ xgemius.js$script
 ||stats.landingi.com^
 ||5v.pl/stats.php
 ||ceneo.pl/Content/js/partner/partnerTracker.js$script
+||ma.wp.pl^
+||dot.wp.pl^
+@@||dot.wp.pl/redir?SN=mailing
 !
 !
 !-----------------------Privacy filters 2-----------------------!
