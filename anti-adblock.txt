@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 29 stycznia 2021
+! Last modified: 6 lutego 2021
 ! Expires: 2 days
-! Version: 2021012901
+! Version: 2021020601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021012901 aktualizacja: ptk, 29 stycznia 2021, 19:25:00
+! v.2021020601 aktualizacja: sob, 6 lutego 2021, 09:25:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -509,6 +509,8 @@ vod.tvp.pl##.hidden-phone.rectangleWrapper
 !
 !8#--------------------------tvn------------!
 @@||tvn.adocean.pl/*ad.xml$domain=planeteplus.pl
+@@||tvn.adocean.pl/ad.xml$xhr,domain=fakty.tvn24.pl|tvn.pl
+@@||tvn.adocean.pl/__/ad.xml$xhr,domain=fakty.tvn24.pl|tvn.pl
 !
 !9#--------------------------flmweb------------!
 @@||r.sascdn.com/config.js$script,domain=www.filmweb.pl
