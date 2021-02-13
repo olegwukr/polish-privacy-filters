@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 28 January 2021
+! Last modified: 13 February 2021
 ! Expires: 2 days
-! Version: 2021012801
+! Version: 2021021301
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021012801 aktualizacja: czw, 28 stycznia 2021, 11:15:00
+! v.2021021301 aktualizacja: sob, 13 lutego 2021, 16:15:00
 !
 !
 ! Adblock
@@ -62,6 +62,9 @@ weszlo.com,prnews.pl,mambiznes.pl,kresy.pl,natemat.pl##+js(abort-current-inline-
 !
 ! tvn24.pl
 tvn24.pl##+js(abort-on-property-write.js, Vublock)
+!
+! tvn.pl
+||redcdn.pl/*-Adserver/*$media,domain=www.tvn.pl,redirect=noopmp4-1s
 !
 ! kitsune-subs.anime-odcinki.pl
 kitsune-subs.anime-odcinki.pl##+js(set-constant.js, showAds, true)
