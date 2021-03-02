@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 6 lutego 2021
+! Last modified: 2 March 2021
 ! Expires: 2 days
-! Version: 2021020601
+! Version: 2021030201
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021020601 aktualizacja: sob, 6 lutego 2021, 09:25:00
+! v.2021030201 aktualizacja: wt, 2 marca 2021, 18:25:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -446,6 +446,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||zakupek.pl/wp-content/themes/zakupek/bannery/adbanner.htm$script,domain=zakupek.pl
 @@||zarabiajnaokazjach.pl^$generichide
 @@||zyciepabianic.pl^$generichide
+@@||bham.pl/templates/bham_res/js/advscript.js
 !
 !4#--------------------------Rules block ads after antiadblock rules-------------!
 /ad-$subdocument,domain=upflix.pl
