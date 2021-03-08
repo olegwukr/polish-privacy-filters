@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 2 March 2021
+! Last modified: 8 March 2021
 ! Expires: 2 days
-! Version: 2021030201
+! Version: 2021030801
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021030201 aktualizacja: wt, 2 marca 2021, 18:25:00
+! v.2021030801 aktualizacja: pon, 8 marca 2021, 07:45:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -321,6 +321,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||elektroda.pl^$generichide
 @@||epiotrkow.pl/reklama/*MajkiIT*.js$script
 @@||eska.pl^$generichide
+@@||eskarock.pl^$generichide
 @@||eskago.pl/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest,domain=eskago.pl
 @@||eskago.pl/html/js/ads*.js$script
 @@||eskago.pl^$generichide
@@ -408,6 +409,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||s-pt.ppstatic.pl/*/reklama.js$script,domain=dzienniklodzki.pl|gloswielkopolski.pl|dziennikpolski24.pl|echodnia.eu|polskatimes.pl|expressbydgoski.pl|expressilustrowany.pl|nowiny24.pl|gazetakrakowska.pl|pomorska.pl|nto.pl|gazetawroclawska.pl|wspolczesna.pl|gp24.pl|dziennikzachodni.pl|gazetalubuska.pl|dziennikbaltycki.pl|stronazdrowia.pl
 @@||serialosy.pl^$generichide
 @@||skript.pl/ads.php
+@@||sascdn.com/diff/$script,domain=eskarock.pl
 @@||static-pilot.wp.pl/static/assets/js/ads.js$xmlhttprequest,domain=pilot.wp.pl
 @@||teletoonplus.pl^$generichide
 @@||telewizjastk.pl/libs/adsbygoogle.js$script
