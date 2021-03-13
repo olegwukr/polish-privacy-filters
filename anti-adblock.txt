@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 8 March 2021
+! Last modified: 13 March 2021
 ! Expires: 2 days
-! Version: 2021030801
+! Version: 2021031301
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021030801 aktualizacja: pon, 8 marca 2021, 07:45:00
+! v.2021031301 aktualizacja: sob, 13 marca 2021, 11:35:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -256,6 +256,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=zobacz.ws,redirect=nooptext,important
 !
 !3#---------------------------------Anti Adblock Rules whitelist filters----------------------------------!
+@@/wp-content/*/plugins/dh-anti-adblocker$script
 @@*$generichide,domain=break.pl|handballnews.pl|angielskieespresso.pl|dayz.pl|go4free.pl|meteomodel.pl|polski-sport.pl|wyborcza.pl|esarena.eu|queer.pl|wysokieobcasy.pl|eduzabawy.com|zadanie.pl|waw4free.pl|listatv.pl
 @@/Scripts/ads.js$script,domain=www.reklama.pl
 @@/^(https|http):\/\/a-o\.ninja\/[0-9a-zA-z-]{10,200}\.js/$script
