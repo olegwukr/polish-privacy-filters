@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 13 March 2021
+! Last modified: 19 March 2021
 ! Expires: 2 days
-! Version: 2021031301
+! Version: 2021031901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021031301 aktualizacja: sob, 13 marca 2021, 11:35:00
+! v.2021031901 aktualizacja: ptk, 19 marca 2021, 05:05:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -339,7 +339,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||gtaforum.pl^$generichide
 @@||hentai-online.pl^$generichide
 !@@||hit.stat24.com^$script,xmlhttprequest,domain=www.geekweek.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.cdn.famobi.com|grydladzieci.pl|fm.tuba.pl|wp.pl|player.pl|animezone.pl|ipla.tv|www.polsatnews.pl|playpuls.pl|polsatsport.pl|twojapogoda.pl|wtk.pl|tvp.pl|polsatnews.pl|tvokazje.pl|parenting.pl|abczdrowie.pl|money.pl|meloradio.pl|antyradio.pl|chillizet.pl|radioplus.pl|radiozet.pl|www.geekweek.pl|video.onnetwork.tv|partner.redefine.pl|echirurgia.pl|national-geographic.pl|mojegotowanie.pl|przyslijprzepis.pl|focusnauka.pl|glamour.pl|elle.pl|kobieta.pl|elleman.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.cdn.famobi.com|grydladzieci.pl|fm.tuba.pl|wp.pl|player.pl|animezone.pl|ipla.tv|www.polsatnews.pl|playpuls.pl|polsatsport.pl|twojapogoda.pl|wtk.pl|tvp.pl|polsatnews.pl|tvokazje.pl|parenting.pl|abczdrowie.pl|money.pl|meloradio.pl|antyradio.pl|chillizet.pl|radioplus.pl|radiozet.pl|www.geekweek.pl|video.onnetwork.tv|partner.redefine.pl|echirurgia.pl|national-geographic.pl|mojegotowanie.pl|przyslijprzepis.pl|focusnauka.pl|glamour.pl|elle.pl|kobieta.pl|elleman.pl|claudia.pl
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=vod.tvp.pl
 @@||imged.pl/subframe/js/*/adblock-advertisement.js$script
 @@||interia.pl^$generichide
@@ -353,6 +353,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||js.iplsc.com/inpl.adb/*/empt.js?*&adserv=$domain=interia.pl
 @@||js.iplsc.com/inpl.abd/*/proxy.html?host=$generichide
 @@||js.iplsc.com/inpl.abd/latest/ads.js?$domain=pomponik.pl|interia.pl
+@@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js$script
 @@||kinonet.pl^$generichide
 @@||komputerswiat.pl^$generichide
 @@||kubofonista.net/r/ad.htm$script,domain=kubofonista.net
