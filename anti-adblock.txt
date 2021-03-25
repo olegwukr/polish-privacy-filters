@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 21 March 2021
+! Last modified: 25 March 2021
 ! Expires: 2 days
-! Version: 2021032101
+! Version: 2021032501
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021032101 aktualizacja: nie, 21 marca 2021, 14:25:00
+! v.2021032501 aktualizacja: czw, 25 marca 2021, 17:25:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -55,6 +55,7 @@ e-dokument.org,znaki.vxm.pl#@##banner_ad
 e-kursy-walut.pl##.box-22
 egarwolin.pl###TXhkUvZljBCga
 emstories.pl###adBlockDetectedMessage
+eskarock.pl,muratorplus.pl#@#.ad-placement
 fanimani.pl###fanimani-adb-notice
 fly4free.pl##.warnadblk
 forum.komputerswiat.pl#@##ks_breaking_news
@@ -127,6 +128,7 @@ minecraftpolska.net,pracawgdansku.com.pl#@##reklama
 mmorpg.org.pl,parezja.pl,forum.purepc.pl##.adsbygoogle
 mmorpg.org.pl##div[style*="background-image: url(/images/info-peer.jpg);"]
 mojawyspa.co.uk#@#.adtable
+muratorplus.pl#@#[class*="placement"]
 mylomza.pl##body > div[id][style="display: block;"]:first-child
 napiprojekt.pl###bannerContent > div > div >div
 nadajemy.pl###abp_info
@@ -139,7 +141,7 @@ poczta.onet.pl##.slot-right-container
 parezja.pl,demotywatory.pl###adblock_info
 pecetowicz.pl#@#.adBanner
 pikio.pl##.adBlockDetectModal, .swal2-fade
-player.radiozet.pl,eska.pl,mjakmama24.pl,pomponik.pl,interia.pl#@#[class$="-ads"]
+player.radiozet.pl,eska.pl,mjakmama24.pl,pomponik.pl,interia.pl,eskarock.pl,muratorplus.pl#@#[class$="-ads"]
 poczta.onet.pl#?#div[class^="slot-"]:-abp-has(> div[class^="slot"][class$="plug"])
 polskieszlaki.pl##.my-5
 polskihurtworld.eu##.modall-content
@@ -184,14 +186,14 @@ tvmalbork.pl##.diablo-placeholder-ADB, .diablo-placeholder
 tvregionalna24.pl##.diablo-placeholder
 tvsztum.pl,tvdzierzgon.pl,zulawyimierzeja24.pl##.diablo-placeholder
 tv.wp.pl##.sc-15qxer4-0
-upflix.pl,mjakmama24.pl,polsatnews.pl#@#.ad
+upflix.pl,mjakmama24.pl,polsatnews.pl,eskarock.pl,muratorplus.pl#@#.ad
 upflix.pl##.col > div
 webinsider.pl#@#.etad
 vitalia.pl###topbborlayer
 vod.pl#@#.infoCloud
 vod.pl#@#.text-ad
 vorek.pl,gry-planszowe.pl,darmowe-torenty.pl,torrentcity.pl,bitnova.info,waw4free.pl,darmowyskin.pl,lunaticfiles.com,www.nadmorski24.pl,www.realmadryt.pl,telewizjattm.pl,nadmorski24.pl,kociewie24.pl#@#.adsbox
-virpe.com,fileone.tv#@#.adsBox
+virpe.com,fileone.tv,muratorplus.pl#@#.adsBox
 vorek.pl,shinden.pl,pomponik.pl#@#.ads
 waw4free.pl#@#.showad
 waw4free.pl#@#.showbox
