@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 28 March 2021
+! Last modified: 31 March 2021
 ! Expires: 2 days
-! Version: 2021032801
+! Version: 2021033101
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021032801 aktualizacja: nie, 28 marca 2021, 16:05:00
+! v.2021033101 aktualizacja: sr, 31 marca 2021, 15:05:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -55,7 +55,7 @@ e-dokument.org,znaki.vxm.pl#@##banner_ad
 e-kursy-walut.pl##.box-22
 egarwolin.pl###TXhkUvZljBCga
 emstories.pl###adBlockDetectedMessage
-eskarock.pl,muratorplus.pl#@#.ad-placement
+eskarock.pl,muratorplus.pl,voxfm.pl#@#.ad-placement
 fanimani.pl###fanimani-adb-notice
 fly4free.pl##.warnadblk
 forum.komputerswiat.pl#@##ks_breaking_news
@@ -141,7 +141,7 @@ poczta.onet.pl##.slot-right-container
 parezja.pl,demotywatory.pl###adblock_info
 pecetowicz.pl#@#.adBanner
 pikio.pl##.adBlockDetectModal, .swal2-fade
-player.radiozet.pl,eska.pl,mjakmama24.pl,pomponik.pl,interia.pl,eskarock.pl,muratorplus.pl#@#[class$="-ads"]
+player.radiozet.pl,eska.pl,mjakmama24.pl,pomponik.pl,interia.pl,eskarock.pl,muratorplus.pl,voxfm.pl#@#[class$="-ads"]
 poczta.onet.pl#?#div[class^="slot-"]:-abp-has(> div[class^="slot"][class$="plug"])
 polskieszlaki.pl##.my-5
 polskihurtworld.eu##.modall-content
@@ -186,7 +186,7 @@ tvmalbork.pl##.diablo-placeholder-ADB, .diablo-placeholder
 tvregionalna24.pl##.diablo-placeholder
 tvsztum.pl,tvdzierzgon.pl,zulawyimierzeja24.pl##.diablo-placeholder
 tv.wp.pl##.sc-15qxer4-0
-upflix.pl,mjakmama24.pl,polsatnews.pl,eskarock.pl,muratorplus.pl#@#.ad
+upflix.pl,mjakmama24.pl,polsatnews.pl,eskarock.pl,muratorplus.pl,voxfm.pl#@#.ad
 upflix.pl##.col > div
 webinsider.pl#@#.etad
 vitalia.pl###topbborlayer
