@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for Adguard
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla Adguard
-! Last modified: 13 February 2021
+! Last modified: 26 May 2021
 ! Expires: 2 days
-! Version: 2021021301
+! Version: 2021052601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021021301 aktualizacja: sob, 13 lutego 2021, 16:15:00
+! v.2021052601 aktualizacja: sr, 26 maj 2021, 20:30:00
 !
 !
 ! Adblock
@@ -179,6 +179,16 @@ wyklady.org##+js(nobab)
 !
 ! soisk.pl
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=soisk.pl,redirect=googlesyndication.com/adsbygoogle.js,important
+!
+! synonimy.pl
+synonimy.pl##+js(set-constant, showAddbockerMsg, noopFunc)
+!
+! elektroda.pl
+elektroda.pl##section a:not([href*="elektroda.pl/"]):not([href*="/rtvforum/"]):not(.fancybox):not(.postlink) img[src^="https://obrazki.elektroda.pl/"]
+elektroda.pl###main .col-md-8 a:not([href*="elektroda.pl/"]) img[src^="https://static.elektroda.pl/"]
+elektroda.pl###main .col-md-8 form[action*="//"][action*="m"][action*="."]:upward(.col-md-8 > div)
+elektroda.pl##+js(no-setTimeout-if.js, adBlockTest, 100)
+www.elektroda.pl##+js(set-constant.js, loadElementBlock, noopFunc)
 !
 ! geekweek.pl
 #if env_adguard
