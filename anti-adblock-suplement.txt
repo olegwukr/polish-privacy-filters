@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 5 May 2021
+! Last modified: 3 September 2021
 ! Expires: 2 days
-! Version: 2021050501
+! Version: 2021090301
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021050501 aktualizacja: sr, 5 maja 2021, 21:45:00
+! v.2021090301 aktualizacja: ptk, 3 września 2021, 10:35:00
 !
 !
 ! Adblock
@@ -189,3 +189,6 @@ elektroda.pl###main .col-md-8 a:not([href*="elektroda.pl/"]) img[src^="https://s
 elektroda.pl###main .col-md-8 form[action*="//"][action*="m"][action*="."]:upward(.col-md-8 > div)
 elektroda.pl##+js(no-setTimeout-if.js, adBlockTest, 100)
 www.elektroda.pl##+js(set-constant.js, loadElementBlock, noopFunc)
+!
+! 
+roweroweporady.pl##+js(abort-on-property-write.js, adquestoConfig)
