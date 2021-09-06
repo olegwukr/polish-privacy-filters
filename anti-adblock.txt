@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 3 September 2021
+! Last modified: 6 September 2021
 ! Expires: 2 days
-! Version: 2021090301
+! Version: 2021090601
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021090301 aktualizacja: ptk, 3 września 2021, 10:35:00
+! v.2021090601 aktualizacja: pon, 6 września 2021, 20:15:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -76,6 +76,7 @@ imged.pl##.m-puppies-detector
 infoship.pl,infoair.pl,infobike.pl,infotram.pl,inforail.pl,transinfo.pl,infobus.pl###popup_adblock
 instrukcjapdf.pl###quads-myModal
 ipon.pl##.alert-warning
+jakaoferta.pl##[id$="_slidein"] > .letterBox_inner
 jbzdy.com.pl,jbzdy.pl,kwejk.pl,piwniczkamemow.pl,eszkola.pl,dobreprogramy.pl,interia.pl,kwantowo.pl,katowickisport.pl,imeds.pl,pl.aleteia.org,overwatch.pl,jackcaleib.com,waw4free.pl,dziwneobrazki.pl,fm.tuba.pl,hentai-online.pl,epainfo.pl,bajeczki.org,tvbraniewo24.pl,anime-odcinki.pl,bh-res.pl,scentre.pl,towideo.pl,cypr24.eu,cdahd.co,player.radiozet.pl,meloradio.pl,antyradio.pl,chillizet.pl,radioplus.pl,tarnowska.tv#@#.pub_300x250
 jbzdy.com.pl,jbzdy.pl,kwejk.pl,piwniczkamemow.pl,eszkola.pl,dobreprogramy.pl,interia.pl,kwantowo.pl,katowickisport.pl,imeds.pl,pl.aleteia.org,overwatch.pl,jackcaleib.com,waw4free.pl,dziwneobrazki.pl,fm.tuba.pl,hentai-online.pl,epainfo.pl,bajeczki.org,tvbraniewo24.pl,anime-odcinki.pl,bh-res.pl,scentre.pl,towideo.pl,cypr24.eu,cdahd.co,player.radiozet.pl,meloradio.pl,antyradio.pl,chillizet.pl,radioplus.pl,tarnowska.tv#@#.pub_300x250m
 jbzdy.com.pl,jbzdy.pl,kwejk.pl,piwniczkamemow.pl,eszkola.pl,dobreprogramy.pl,interia.pl,kwantowo.pl,katowickisport.pl,imeds.pl,pl.aleteia.org,overwatch.pl,jackcaleib.com,waw4free.pl,dziwneobrazki.pl,fm.tuba.pl,hentai-online.pl,epainfo.pl,bajeczki.org,tvbraniewo24.pl,anime-odcinki.pl,bh-res.pl,scentre.pl,towideo.pl,cypr24.eu,cdahd.co,player.radiozet.pl,meloradio.pl,antyradio.pl,chillizet.pl,radioplus.pl,tarnowska.tv#@#.pub_728x90
@@ -337,12 +338,12 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||games.softgames.com/assets/showads.js$script,domain=games.softgames.com
 @@||gapl.hit.gemius.pl/gemiuslib.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
 @@||gapl.hit.gemius.pl/gplayer.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
-@@||gemius.pl^$script,xmlhttprequest,domain=polsatnews.pl
+@@||gemius.pl^$script,xmlhttprequest,domain=polsatnews.pl|polsatgo.pl
 @@||googletagmanager.com/gtm.js$domain=echodnia.eu|se.pl
 @@||gtaforum.pl^$generichide
 @@||hentai-online.pl^$generichide
 !@@||hit.stat24.com^$script,xmlhttprequest,domain=www.geekweek.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.cdn.famobi.com|grydladzieci.pl|fm.tuba.pl|wp.pl|player.pl|animezone.pl|ipla.tv|www.polsatnews.pl|playpuls.pl|polsatsport.pl|twojapogoda.pl|wtk.pl|tvp.pl|polsatnews.pl|tvokazje.pl|parenting.pl|abczdrowie.pl|money.pl|meloradio.pl|antyradio.pl|chillizet.pl|radioplus.pl|radiozet.pl|www.geekweek.pl|video.onnetwork.tv|partner.redefine.pl|echirurgia.pl|national-geographic.pl|mojegotowanie.pl|przyslijprzepis.pl|focusnauka.pl|glamour.pl|elle.pl|kobieta.pl|elleman.pl|claudia.pl|ipla.tv|elevensports.pl|mojpieknyogrod.pl|sadeczanin.info|pluscdn.pl|videotarget.pl|videotarget.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.cdn.famobi.com|grydladzieci.pl|fm.tuba.pl|wp.pl|player.pl|animezone.pl|ipla.tv|www.polsatnews.pl|playpuls.pl|polsatsport.pl|twojapogoda.pl|wtk.pl|tvp.pl|polsatnews.pl|tvokazje.pl|parenting.pl|abczdrowie.pl|money.pl|meloradio.pl|antyradio.pl|chillizet.pl|radioplus.pl|radiozet.pl|www.geekweek.pl|video.onnetwork.tv|partner.redefine.pl|echirurgia.pl|national-geographic.pl|mojegotowanie.pl|przyslijprzepis.pl|focusnauka.pl|glamour.pl|elle.pl|kobieta.pl|elleman.pl|claudia.pl|ipla.tv|elevensports.pl|mojpieknyogrod.pl|sadeczanin.info|pluscdn.pl|videotarget.pl|videotarget.pl|polsatgo.pl
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=vod.tvp.pl
 @@||imged.pl/subframe/js/*/adblock-advertisement.js$script
 @@||interia.pl^$generichide
