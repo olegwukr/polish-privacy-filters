@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 23 September 2021
+! Last modified: 1 November 2021
 ! Expires: 2 days
-! Version: 2021092301
+! Version: 2021110101
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021092301 aktualizacja: czw, 23 września 2021, 13:05:00
+! v.2021110101 aktualizacja: pon, 1 listopada 2021, 15:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -587,6 +587,11 @@ yafud.pl#@#.adsbygoogle, #adsense_banner_top
 @@||imasdk.googleapis.com/js/core/bridge*.html$domain=ipla.tv
 @@||gapl.hit.gemius.pl/gplayer.js$domain=ipla.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ipla.tv
+!
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=loomi.tv,redirect=noopjs,important
+!
+! kursjs.pl
+@@||kursjs.pl/js/ads-prebid.js
 !
 !#if !ext_ublock
 @@||criteo.net/js/ld/publishertag.js$script,third-party,domain=shinden.pl

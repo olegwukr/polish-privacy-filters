@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 11 October 2021
+! Last modified: 1 November 2021
 ! Expires: 2 days
-! Version: 2021101101
+! Version: 2021110101
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2021
-! v.2021101101 aktualizacja: pon, 11 pazdziernika 2021, 06:15:00
+! v.2021110101 aktualizacja: pon, 1 listopada 2021, 15:45:00
 !
 !
 ! Adblock
@@ -195,3 +195,6 @@ roweroweporady.pl##+js(abort-on-property-write.js, adquestoConfig)
 !
 ! smartage.pl
 smartage.pl##+js(abort-current-script, parseInt, /adBlock/)
+!
+! uwatchfree
+@@||wss.analyticacdn.com^$websocket,domain=hydrax.xyz
