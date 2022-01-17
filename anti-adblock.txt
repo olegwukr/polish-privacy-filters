@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 1 November 2021
+! Last modified: 17 January 2022
 ! Expires: 2 days
-! Version: 2021110101
+! Version: 2022011701
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-! Copyright (C) 2021
-! v.2021110101 aktualizacja: pon, 1 listopada 2021, 15:55:00
+! Copyright (C) 2022
+! v.2022011701 aktualizacja: pon, 17 stycznia 2022, 05:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -297,6 +297,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@/wp-content/plugins/jgc-adblocker-detector/js/jgcabd-detect-adblock.js$script,domain=hentai-online.pl
 @@?ads=$image,domain=dziennikwschodni.pl
 @@ads$image,domain=rapidgrab.pl
+@@/adsby.$image,domain=starekino888.blogspot.com|tvszperacz.blogspot.com
 @@||24opole.pl^$generichide
 @@||adservice.google.*/adsid/integrator.js$domain=dieroten.pl|gram.pl
 @@||adv.wp.pl/RM/Box/*/inline-videostar.js$script,domain=pilot.wp.pl
