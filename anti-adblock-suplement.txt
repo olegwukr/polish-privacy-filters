@@ -198,3 +198,10 @@ smartage.pl##+js(abort-current-script, parseInt, /adBlock/)
 !
 ! uwatchfree
 @@||wss.analyticacdn.com^$websocket,domain=hydrax.xyz
+!
+! ewybory.eu
+ewybory.eu###ybfoexqv-blanket
+ewybory.eu###ybfoexqv-blanket button
+ewybory.eu###ybfoexqv-blanket>div
+ewybory.eu###ybfoexqv-blanket>div>div
+ewybory.eu##body:style(overflow: auto !important;)
