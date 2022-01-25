@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 17 January 2022
+! Last modified: 25 January 2022
 ! Expires: 2 days
-! Version: 2022011701
+! Version: 2022012501
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! Copyright (C) 2022
-! v.2022011701 aktualizacja: pon, 17 stycznia 2022, 05:55:00
+! v.2022012501 aktualizacja: wt, 22 stycznia 2022, 05:15:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -261,7 +261,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 !
 !3#---------------------------------Anti Adblock Rules whitelist filters----------------------------------!
 @@/wp-content/*/plugins/dh-anti-adblocker$script
-@@*$generichide,domain=break.pl|handballnews.pl|angielskieespresso.pl|dayz.pl|go4free.pl|meteomodel.pl|polski-sport.pl|wyborcza.pl|esarena.eu|queer.pl|wysokieobcasy.pl|eduzabawy.com|zadanie.pl|waw4free.pl|listatv.pl|calcoolator.pl
+@@*$generichide,domain=break.pl|handballnews.pl|angielskieespresso.pl|dayz.pl|go4free.pl|meteomodel.pl|polski-sport.pl|wyborcza.pl|esarena.eu|queer.pl|wysokieobcasy.pl|eduzabawy.com|zadanie.pl|waw4free.pl|listatv.pl|calcoolator.pl|roland-gazeta.pl
 @@/Scripts/ads.js$script,domain=www.reklama.pl
 @@/^(https|http):\/\/a-o\.ninja\/[0-9a-zA-z-]{10,200}\.js/$script
 @@/ads.css$domain=trojmiasto.pl
@@ -297,7 +297,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@/wp-content/plugins/jgc-adblocker-detector/js/jgcabd-detect-adblock.js$script,domain=hentai-online.pl
 @@?ads=$image,domain=dziennikwschodni.pl
 @@ads$image,domain=rapidgrab.pl
-@@/adsby.$image,domain=starekino888.blogspot.com|tvszperacz.blogspot.com
+@@/adsby.$image,domain=starekino888.blogspot.com|tvszperacz.blogspot.com|200127.blogspot.com
 @@||24opole.pl^$generichide
 @@||adservice.google.*/adsid/integrator.js$domain=dieroten.pl|gram.pl
 @@||adv.wp.pl/RM/Box/*/inline-videostar.js$script,domain=pilot.wp.pl
@@ -460,6 +460,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||tvcom-static.ssl.cdn.cra.cz^$script,domain=www.tvcom.pl|www.tvcom.cz|kulturazive.cz
 @@||faucet-doge.u7u.pl/libs/advertisement.js$script,domain=faucet-doge.u7u.pl
 @@||moviads.pl^$domain=mojpieknyogrod.pl
+@@||infobel.*/custom/ads-$script,domain=infobel.pl|infobel.com
 !
 !4#--------------------------Rules block ads after antiadblock rules-------------!
 /ad-$subdocument,domain=upflix.pl
