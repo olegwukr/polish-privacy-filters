@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 27 June 2022
+! Last modified: 19 November 2023
 ! Expires: 2 days
-! Version: 2022062701
+! Version: 2023111901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-! Copyright (C) 2022
-! v.2022062701 aktualizacja: pon, 27 stycznia 2022, 05:05:00
+! Copyright (C) 2023
+! v.2023111901 aktualizacja: nie, 19 listopada 2023, 19:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -132,6 +132,9 @@ mmorpg.org.pl##div[style*="background-image: url(/images/info-peer.jpg);"]
 mojawyspa.co.uk#@#.adtable
 muratorplus.pl#@#[class*="placement"]
 mylomza.pl##body > div[id][style="display: block;"]:first-child
+myradioonline.pl#@#div[id^="div-gpt-"]
+myradioonline.pl#@#[id^="div-gpt-ad"]
+myradioonline.pl#@#[class^="div-gpt-ad"]
 napiprojekt.pl###bannerContent > div > div >div
 nadajemy.pl###abp_info
 ps3forum.pl###abl
@@ -389,6 +392,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dieroten.pl|ps3-hack.pl|dniwolne.eu|webkod.pl|cdahd.ml|zobacz.ws|nysainfo.pl|odsluchane.eu|lowcygier.pl|trojmiasto.pl|listatv.pl|darmowa-tv.ws
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=efizyka.net.pl|dniwolne.eu
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=efizyka.net.pl|nk-net.pl|www.gry.pl|lowcygier.pl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=poral.eu
 @@||pc-sos.pl/ad.htm$script,domain=pc-sos.pl|xn--strela-8db.pl
 @@||pclab.pl^$generichide
 @@||pilot.wp.pl^$generichide
