@@ -24,7 +24,6 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 dziwnekomiksy.pl##body>*:style(filter: blur(0px) !important;)
 filmweb.pl##+js(setTimeout-defuser.js, notDetected)
 filmweb.pl#@#+js(abort-current-inline-script.js, decodeURIComponent, newAdblockBoardDisplayed)
-filmweb.pl$$script[tag-content="adblockDisplayInformation."][min-length="8000"][max-length="50000"]
 miastakobiet.pl,stronazdrowia.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
 mmorpg.org.pl##+js(nofab)
 niezalezna.pl##+js(noeval.js)
@@ -79,7 +78,6 @@ twojogrodek.pl,waw4free.pl##.pub_300x250.pub_300x250m.text-ad.textAd.text-ads.te
 dniwolne.eu##+js(set-constant.js, window.google_jobrunner, noopFunc)
 dniwolne.eu##.axv
 dniwolne.eu##^.axv
-dniwolne.eu$$.axv
 !
 ! shinden.pl
 !shinden.pl##+js(abort-on-property-write.js, _pop)
