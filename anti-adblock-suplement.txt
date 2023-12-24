@@ -203,9 +203,4 @@ ewybory.eu###ybfoexqv-blanket button
 ewybory.eu###ybfoexqv-blanket>div
 ewybory.eu###ybfoexqv-blanket>div>div
 ewybory.eu##body:style(overflow: auto !important;)
-ewybory.eu###ybfoexqv-blanket button
-ewybory.eu###ybfoexqv-blanket>div
-ewybory.eu###ybfoexqv-blanket>div>div
-!
-! dziennik.pl
-dziennik.pl##+js(abort-current-inline-script.js, parseInt, adblock)
+
