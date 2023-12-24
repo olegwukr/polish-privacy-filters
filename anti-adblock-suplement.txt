@@ -1,13 +1,13 @@
 ! Title: Polish Anti Adblock Filters - supplement for uBlock Origin
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku - uzupelnienie dla uBlock Origin
-! Last modified: 1 November 2021
+! Last modified: 25 January 2022
 ! Expires: 2 days
-! Version: 2021110101
+! Version: 2022012501
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-! Copyright (C) 2021
-! v.2021110101 aktualizacja: pon, 1 listopada 2021, 15:45:00
+! Copyright (C) 2022
+! v.2022012501 aktualizacja: wt, 22 stycznia 2022, 05:15:00
 !
 !
 ! Adblock
@@ -24,7 +24,6 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 dziwnekomiksy.pl##body>*:style(filter: blur(0px) !important;)
 filmweb.pl##+js(setTimeout-defuser.js, notDetected)
 filmweb.pl#@#+js(abort-current-inline-script.js, decodeURIComponent, newAdblockBoardDisplayed)
-filmweb.pl$$script[tag-content="adblockDisplayInformation."][min-length="8000"][max-length="50000"]
 miastakobiet.pl,stronazdrowia.pl##+js(set-constant.js, pp_adblock_is_off, trueFunc)
 mmorpg.org.pl##+js(nofab)
 niezalezna.pl##+js(noeval.js)
@@ -79,7 +78,6 @@ twojogrodek.pl,waw4free.pl##.pub_300x250.pub_300x250m.text-ad.textAd.text-ads.te
 dniwolne.eu##+js(set-constant.js, window.google_jobrunner, noopFunc)
 dniwolne.eu##.axv
 dniwolne.eu##^.axv
-dniwolne.eu$$.axv
 !
 ! shinden.pl
 !shinden.pl##+js(abort-on-property-write.js, _pop)
@@ -205,3 +203,4 @@ ewybory.eu###ybfoexqv-blanket button
 ewybory.eu###ybfoexqv-blanket>div
 ewybory.eu###ybfoexqv-blanket>div>div
 ewybory.eu##body:style(overflow: auto !important;)
+

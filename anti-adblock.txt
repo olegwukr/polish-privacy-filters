@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Polish Anti Adblock Filters
 ! Oficjalne polskie filtry przeciwko alertom o Adblocku
-! Last modified: 17 January 2022
+! Last modified: 19 November 2023
 ! Expires: 2 days
-! Version: 2022011701
+! Version: 2023111901
 ! Support:
 !   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-! Copyright (C) 2022
-! v.2022011701 aktualizacja: pon, 17 stycznia 2022, 05:55:00
+! Copyright (C) 2023
+! v.2023111901 aktualizacja: nie, 19 listopada 2023, 19:55:00
 !
 !
 !-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
@@ -132,6 +132,9 @@ mmorpg.org.pl##div[style*="background-image: url(/images/info-peer.jpg);"]
 mojawyspa.co.uk#@#.adtable
 muratorplus.pl#@#[class*="placement"]
 mylomza.pl##body > div[id][style="display: block;"]:first-child
+myradioonline.pl#@#div[id^="div-gpt-"]
+myradioonline.pl#@#[id^="div-gpt-ad"]
+myradioonline.pl#@#[class^="div-gpt-ad"]
 napiprojekt.pl###bannerContent > div > div >div
 nadajemy.pl###abp_info
 ps3forum.pl###abl
@@ -261,7 +264,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 !
 !3#---------------------------------Anti Adblock Rules whitelist filters----------------------------------!
 @@/wp-content/*/plugins/dh-anti-adblocker$script
-@@*$generichide,domain=break.pl|handballnews.pl|angielskieespresso.pl|dayz.pl|go4free.pl|meteomodel.pl|polski-sport.pl|wyborcza.pl|esarena.eu|queer.pl|wysokieobcasy.pl|eduzabawy.com|zadanie.pl|waw4free.pl|listatv.pl|calcoolator.pl
+@@*$generichide,domain=break.pl|handballnews.pl|angielskieespresso.pl|dayz.pl|go4free.pl|meteomodel.pl|polski-sport.pl|wyborcza.pl|esarena.eu|queer.pl|wysokieobcasy.pl|eduzabawy.com|zadanie.pl|waw4free.pl|listatv.pl|calcoolator.pl|roland-gazeta.pl
 @@/Scripts/ads.js$script,domain=www.reklama.pl
 @@/^(https|http):\/\/a-o\.ninja\/[0-9a-zA-z-]{10,200}\.js/$script
 @@/ads.css$domain=trojmiasto.pl
@@ -297,7 +300,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@/wp-content/plugins/jgc-adblocker-detector/js/jgcabd-detect-adblock.js$script,domain=hentai-online.pl
 @@?ads=$image,domain=dziennikwschodni.pl
 @@ads$image,domain=rapidgrab.pl
-@@/adsby.$image,domain=starekino888.blogspot.com|tvszperacz.blogspot.com
+@@/adsby.$image,domain=starekino888.blogspot.com|tvszperacz.blogspot.com|200127.blogspot.com
 @@||24opole.pl^$generichide
 @@||adservice.google.*/adsid/integrator.js$domain=dieroten.pl|gram.pl
 @@||adv.wp.pl/RM/Box/*/inline-videostar.js$script,domain=pilot.wp.pl
@@ -389,6 +392,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dieroten.pl|ps3-hack.pl|dniwolne.eu|webkod.pl|cdahd.ml|zobacz.ws|nysainfo.pl|odsluchane.eu|lowcygier.pl|trojmiasto.pl|listatv.pl|darmowa-tv.ws
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=efizyka.net.pl|dniwolne.eu
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=efizyka.net.pl|nk-net.pl|www.gry.pl|lowcygier.pl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=poral.eu
 @@||pc-sos.pl/ad.htm$script,domain=pc-sos.pl|xn--strela-8db.pl
 @@||pclab.pl^$generichide
 @@||pilot.wp.pl^$generichide
@@ -460,6 +464,7 @@ zycietoprzygoda.pl##[class^="tws_"]
 @@||tvcom-static.ssl.cdn.cra.cz^$script,domain=www.tvcom.pl|www.tvcom.cz|kulturazive.cz
 @@||faucet-doge.u7u.pl/libs/advertisement.js$script,domain=faucet-doge.u7u.pl
 @@||moviads.pl^$domain=mojpieknyogrod.pl
+@@||infobel.*/custom/ads-$script,domain=infobel.pl|infobel.com
 !
 !4#--------------------------Rules block ads after antiadblock rules-------------!
 /ad-$subdocument,domain=upflix.pl
@@ -483,6 +488,8 @@ chelmski.eu#?#div[class]:not([id]):-abp-has(> .ad-text)
 naszamlawa.pl##.spacead-r-2, .adsbygoogle, .td-adspot-title, .td-is-sticky.td-pb-span4.tdc-inner-column.vc_column_container.wpb_column.td_uid_26_5defeae8f3d3e_rand.vc_column_inner, .td_block_template_11.td-pb-border-top.td_uid_42_5defeae907025_rand.td_block_title.td_block_wrap, .td-is-sticky.td-pb-span4.tdc-inner-column.vc_column_container
 pilot.wp.pl##a[data-gtm-player-bar="guest_web_desktop"]
 ||c.trojmiasto.pl/adblock/detected/$image,domain=trojmiasto.pl
+reddit.com#@#.ad-banner
+exsites.pl#@##ad-slot
 !
 !5#--------------------------shinden.pl------------!
 ||popads.net/pop.js^$important
